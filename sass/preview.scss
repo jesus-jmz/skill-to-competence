@@ -1,0 +1,29 @@
+@use 'variables' as *;
+
+.preview {
+  grid-area: 2 / 4 / span 6 / span 1 ;
+  background: #4FD3C4;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-in {
+  padding: 20px;
+  display: grid;
+}
+
+.indicadores {
+  grid-area: 2 / 5 / span 6 / span 2 ;
+  background: #4FD3C4;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(20px, auto);
+  padding: 10px;
+}
+
+.indicador {
+}

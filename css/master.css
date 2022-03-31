@@ -1,0 +1,67 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(60px, auto);
+}
+
+.header {
+  grid-column: 1/7;
+  grid-row: 1;
+  background: #488FB1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  display: grid;
+  background-color: #4FD3C4;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  background-color: #C1F8CF;
+  display: grid;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.notes {
+  font-size: 10pt;
+  color: gray;
+  margin: 2px;
+}
+
+.preview {
+  grid-area: 2/4/span 6/span 1;
+  background: #4FD3C4;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-in {
+  padding: 20px;
+  display: grid;
+}
+
+.indicadores {
+  grid-area: 2/5/span 6/span 2;
+  background: #4FD3C4;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(20px, auto);
+  padding: 10px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*# sourceMappingURL=master.css.map */
